@@ -1,0 +1,94 @@
+/* Weather App Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.weather-container {
+  /* background-image: url("weather_background.jpg"); */
+  background-color: #f3f4f6;
+  background-size: cover;
+  background-position: center;
+  color: #27252a;
+  padding: 50px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.temperature {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.weather-description {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.location-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.search-button {
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .weather-container {
+    padding: 20px;
+  }
+  .weather-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .temperature {
+    font-size: 2rem;
+  }
+  .weather-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Weather Icons */
+.cloudy {
+  background-image: url("cloudy_icon.png");
+}
+
+.rainy {
+  background-image: url("rainy_icon.png");
+}
+
+.sunny {
+  background-image: url("sunny_icon.png");
+}
